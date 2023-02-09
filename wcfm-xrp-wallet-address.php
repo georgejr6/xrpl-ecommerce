@@ -1,11 +1,24 @@
 <?php
+
+require plugin_dir_path(__FILE__) . 'user-interface.php';
+require plugin_dir_path(__FILE__) . 'send_payment.php';
+require plugin_dir_path(__FILE__) . 'xrp_validation.php'
+
+/// will require the user-interface.php .. make sure this is in the right directory, folder)
+
+/// This will include the contents of the send_payment.php file into your main PHP file. 
+/// Then, you can call the functions defined in the send_payment.php file from your main PHP file.
+
+/// Remember to replace the path in the require or include statement with the correct path to your send_payment.php file, 
+/// if it's not in the same directory as your main PHP file.
+
 /**
  * Plugin Name: WCFM XRP Wallet Addresses
  * Plugin URI: 
  * Description: This plugin allows WCFM vendors to add their XRP wallet addresses to their profiles
  * Version: 1.0
- * Author: OpenAI
- * Author URI: https://openai.com
+ * Author: Mwosa From DIGITVL
+ * Author URI: https://digitvl.com
  * License: GPL2
  */
 

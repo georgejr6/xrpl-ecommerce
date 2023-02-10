@@ -4,6 +4,18 @@ require plugin_dir_path(__FILE__) . 'user-interface.php';
 require plugin_dir_path(__FILE__) . 'send_payment.php';
 require plugin_dir_path(__FILE__) . 'xrp_validation.php'
 
+
+/// require_once __DIR__ . '/path/to/XRPValidator/XRPValidator.php';
+
+/// use XRPValidator\XRPValidator;
+
+/// function validate_xrp_wallet_address($address) {
+/// $validator = new XRPValidator();
+///    return $validator->validate($address);
+/// }
+
+
+
 /// will require the user-interface.php .. make sure this is in the right directory, folder)
 
 /// This will include the contents of the send_payment.php file into your main PHP file. 
